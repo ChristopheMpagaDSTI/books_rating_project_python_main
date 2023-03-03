@@ -9,16 +9,21 @@ df1:
 
 df2:
 `'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count'`
-+`'languages', 'authors', 'publishers'`
++`'languages'(dummies), 'authors'(dummies), 'publishers'(dummies)`
 
 df3:
 `'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count'`
-+`'authors'`
++`'authors'(dummies)`
 
 df4:
  `'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count'`
-+`'authors', 'publishers'`
++`'authors'(dummies), 'publishers'(dummies)`
 
+df5:
+ `'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count'`
++`'dist_authors'(dummies), 'publishers'(dummies)`
+
+note: dist_authors has excluded the second and the rest authors to keep only the first author in column
 ### models selection
 
 "linear reg": reg_2
