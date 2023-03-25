@@ -1,0 +1,12 @@
+# logs
+.Rhistory
+
+# Mac 
+.DS_Store
+
+# Data
+## *.csv
+
+# IDE / Editore
+.vscode
+.anaconda
