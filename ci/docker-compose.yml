@@ -1,0 +1,14 @@
+version: '3'
+services:
+  jupyter:
+    #image: jupyter/datascience-notebook:latest
+    build: 
+      context: ../
+      dockerfile: ./ci/Dockerfile
+    container_name: DSTI_Python_Lab_A22
+    ports:
+      - 8888:8888
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      #JUPYTER_TOKEN: ""
+    command: "jupyter notebook --ip=0.0.0.0 --NotebookApp.token=''"
