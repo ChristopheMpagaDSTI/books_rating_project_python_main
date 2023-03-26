@@ -1,0 +1,14 @@
+# logs
+.Rhistory
+
+# Mac 
+.DS_Store
+
+# Data
+## *.csv
+
+# IDE / Editore
+.vscode
+.anaconda.ipynb_checkpoints/books_rating_project_EDA_3-checkpoint.ipynb
+.ipynb_checkpoints/Classification_Experiments-checkpoint.ipynb
+.ipynb_checkpoints/books_rating_project_EDA_3-checkpoint.ipynb
