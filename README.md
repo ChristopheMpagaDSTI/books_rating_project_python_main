@@ -1,21 +1,35 @@
 # Machine Learning Lab - Book Rating
-This is a python machine learning project from DSTI A22 cohort.
+This is a python machine learning project from DSTI A22 cohort. In this project, we will be using Jupyter notebook for conducting all the machine learning procedures. Please find the following instructions to perform out process.
 
 
 
-## content
+## Quick start 
 
-- EXECUTIVE SUMMARY
-- INTRODUCTION
-- METHOD
-- RESULTS
-- DISCUSSION
-- CONCLUSION
-- REFERENCE
+Download the DSTI_Python_Lab_A22.zip in the repository. And Voilà!
 
 
 
-## EXECUTIVE SUMMARY
+## Basic start 
+
+### prerequisites
+
+We will be using `docker` and `docker-compose`in this lab so make sure you have [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed. 
+
+### usage 
+
+#### prepare the image (once)
+
+First thing is to download this project into your local directory, and run the following commands to start building the docker image. And assume you have already been inside the working folder.
+
+```bash
+git pull docker-compose -f ci/docker-compose.yml up --build
+```
+
+The image has included all the applications and libraries required for this projects, therefore, might take a while. This step only required once.
+
+After the process is done. 
+
+docker-compose -f ci/docker-compose.yml up --build
 
 
 
@@ -27,24 +41,3 @@ This is a python machine learning project from DSTI A22 cohort.
 
 
 
-======
-
-# books_rating_project. 
-
-Step 1 : Problem understanding   
-
-- hypothesis generation.  
-Step 2 : Data wrangling    
-Step 3 : EDA   
- - data inspection   
-
-data visualization. 
-Step 4 : Features engineering   
-Step 5 : Modelling and Machine learning   
-Step 6 : models evaluation and selection   
-Step 7 : model tuning   
-Step 8 : model Performance.    
-
-hypothesis confirmation.   
-Step 9 : Summary.  
-Step 10 : Discussion 
