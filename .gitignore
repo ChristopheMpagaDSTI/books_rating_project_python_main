@@ -9,4 +9,6 @@
 
 # IDE / Editore
 .vscode
-.anaconda
+.anaconda.ipynb_checkpoints/books_rating_project_EDA_3-checkpoint.ipynb
+.ipynb_checkpoints/Classification_Experiments-checkpoint.ipynb
+.ipynb_checkpoints/books_rating_project_EDA_3-checkpoint.ipynb
