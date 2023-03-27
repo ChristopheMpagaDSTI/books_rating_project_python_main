@@ -1,5 +1,4 @@
 # Machine Learning Lab - Book Rating
-
 This is a python machine learning project from DSTI A22 cohort. In this project, we will be using Jupyter notebook for conducting all the machine learning procedures. Please find the following instructions to perform out process.
 
 
@@ -29,6 +28,8 @@ docker-compose -f ci/docker-compose.yml up --build
 ```
 
 The image has included all the applications and libraries required for this projects, therefore, it might take a while to run. This step only required once.
+
+#### reach out to the target site of Jupyter notebook
 
 After the process is done. Checkout at the docker desktop, you may find a new container named `DSTI_Python_Lab_A22`. When you click on the link in the port, you could launch the Jupyter notebook with everything settled.
 
