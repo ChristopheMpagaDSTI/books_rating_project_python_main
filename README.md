@@ -29,6 +29,8 @@ docker-compose -f ci/docker-compose.yml up --build
 
 The image has included all the applications and libraries required for this projects, therefore, it might take a while to run. This step only required once.
 
+#### reach out to the target site of Jupyter notebook
+
 After the process is done. Checkout at the docker desktop, you may find a new container named `DSTI_Python_Lab_A22`. When you click on the link in the port, you could launch the Jupyter notebook with everything settled.
 
 Have fun!
