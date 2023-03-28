@@ -5,7 +5,8 @@ This is a python machine learning project from DSTI A22 cohort. In this project,
 
 ## Quick start 
 
-Download the DSTI_Python_Lab_A22.zip in the repository. And Voilà!
+Download the DSTI_Python_Lab_A22.zip in the repository. 
+And Voilà!!
 
 
 
